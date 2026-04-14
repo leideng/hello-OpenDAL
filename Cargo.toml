@@ -1,0 +1,8 @@
+[package]
+name = "hello-opendal"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+opendal = { version = "0.52", features = ["services-fs", "executors-tokio", "internal-tokio-rt"] }
+tokio = { version = "1", features = ["full"] }
